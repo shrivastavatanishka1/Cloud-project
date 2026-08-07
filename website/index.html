@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech-ishka</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:18px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    color:white;
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+.hero p{
+    font-size:20px;
+    margin:20px 0;
+    max-width:700px;
+}
+
+.btn{
+    background:#38bdf8;
+    color:#0f172a;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    color:#0f172a;
+    margin-bottom:50px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    gap:40px;
+    align-items:center;
+}
+
+.about-text{
+    flex:1;
+}
+
+.about img{
+    width:350px;
+    border-radius:15px;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Tech-ishka</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Welcome to <span>Tech-ishka</span></h1>
+
+<p>
+Empowering businesses with Cloud Computing, Cybersecurity, Web Development,
+and Modern IT Solutions.
+</p>
+
+<a href="#services" class="btn">Explore Services</a>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>☁ Cloud Computing</h3>
+<p>
+Deploy secure and scalable infrastructure using Microsoft Azure and AWS.
+</p>
+</div>
+
+<div class="card">
+<h3>🔒 Cybersecurity</h3>
+<p>
+Network security, ethical hacking, vulnerability assessment and protection.
+</p>
+</div>
+
+<div class="card">
+<h3>💻 Web Development</h3>
+<p>
+Responsive websites and web applications using modern technologies.
+</p>
+</div>
+
+<div class="card">
+<h3>📊 IT Consulting</h3>
+<p>
+Helping organizations build efficient, reliable and secure IT environments.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Tech-ishka</h2>
+
+<div class="about">
+
+<div class="about-text">
+
+<p style="font-size:18px;line-height:1.8;">
+Tech-ishka is dedicated to delivering innovative cloud computing,
+cybersecurity, and web development solutions. Our mission is to help
+students, startups, and businesses adopt modern technologies securely
+and efficiently.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="card">
+
+<h3>Get in Touch</h3>
+
+<p>Email: contact@tech-ishka.com</p>
+
+<p>Phone: +91 98765 43210</p>
+
+<p>Location: India</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Tech-ishka</h3>
+
+<p>Cloud Computing | Cybersecurity | Web Development</p>
+
+<p>© 2026 Tech-ishka. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
